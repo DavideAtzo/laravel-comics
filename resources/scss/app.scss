@@ -1,5 +1,12 @@
 @import "~bootstrap/scss/bootstrap";
 
-.header-top{
+.header-top {
     background-color: lightseagreen;
+}
+
+#jumbo{
+    height: 25rem;
+    background-image: url('../img/jumbotron.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }

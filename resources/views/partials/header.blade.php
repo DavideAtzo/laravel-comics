@@ -5,7 +5,7 @@
             <span>ADDITIONAL DC SITES</span>
         </div>
     </div>
-    <div class="container d-flex justify-content-between align-items-center pt-4">
+    <div class="container d-flex justify-content-between align-items-center py-4">
         <div class="d-flex logo mx-4 ms-auto">
             <a href="/"><img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="" srcset=""></a>
         </div>

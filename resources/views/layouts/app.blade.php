@@ -8,8 +8,6 @@
     </head>
     <body>
         @include('partials/.header')
-        <main>
-            @yield('page.main')
-        </main>
+        @include('partials/.main')
     </body>
 </html>
