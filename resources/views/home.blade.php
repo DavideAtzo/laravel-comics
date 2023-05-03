@@ -8,7 +8,7 @@
         </div>
         <div class="row poster_list gap-3 py-4">
              @foreach ($comics as $item)
-                <div class="card col-xl-2">
+                <div class="card col-xl-2 text-center">
                     <img src="{{ $item['thumb'] }}" alt="{{ $item['title'] }}">
                     <div class="card-body">
                         <h3>{{ $item['title'] }}</h3>

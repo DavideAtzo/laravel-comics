@@ -10,8 +10,8 @@
             <div class="logo mx-4 ms-auto">
                 <a href="/"><img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="" srcset=""></a>
             </div>
-            <div>
-                <ul class="list-unstyled d-flex justify-content-center align-items-center gap-4 me-5">
+            <div class="col-9">
+                <ul class="list-unstyled d-flex justify-content-between align-items-center gap-4 me-5">
                     <li><a href="#">CHARACTERS</a></li>
                     <li><a href="#">COMICS</a></li>
                     <li><a href="#">MOVIES</a></li>
