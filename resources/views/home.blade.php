@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('page.main')
+@section('page-main')
 <section id="posters" class="py-3">
     <div class="container">
         <div id="currentSiries">

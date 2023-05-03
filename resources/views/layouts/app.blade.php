@@ -10,7 +10,10 @@
     </head>
     <body>
         @include('partials/.header')
-        @include('partials/.main')
+        <main>
+            @include('partials/.jumbo')
+            @yield('page-main')
+        </main>
         @include('partials/.footer')
     </body>
 </html>
