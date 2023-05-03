@@ -1,9 +1,22 @@
-#posters{
+#posters {
     background-color: $background-movies;
     position: relative;
-    .card{
+
+    .card {
         padding: 0;
+
+        button {
+            padding: .3125rem .625rem;
+            text-transform: uppercase;
+            background-color: $primary-color;
+            font-weight: 600;
+            border: none;
+        }
+        a{
+            color: $white;
+        }
     }
+
     #currentSiries {
         padding: .625rem .9375rem;
         background-color: $primary-color;
@@ -13,13 +26,17 @@
         position: absolute;
         top: -20px;
         left: 150px;
-    };
+    }
+
+    ;
+
     #loadMore {
         padding: .625rem 3.75rem;
         text-transform: uppercase;
         background-color: $primary-color;
         font-weight: 600;
-        a{
+
+        a {
             color: white;
         }
     }
