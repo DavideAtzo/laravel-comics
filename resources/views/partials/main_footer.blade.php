@@ -47,7 +47,7 @@
                 </ul>
             </div>
         </div>
-        <div class="row">
+        <div class="row py-3">
             <div>All Site Content TM and c 2020 DC Entertainment, unless otherwise <a href="#">noted here</a>. All rights reserved</div>
             <div><a href="#">Cookies Settings</a></div>
         </div>

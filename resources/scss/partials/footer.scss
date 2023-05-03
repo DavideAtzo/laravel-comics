@@ -1,27 +1,50 @@
-
-#top_footer{
+#top_footer {
     background-color: $primary-color;
+
     img {
         width: 4.375rem;
     }
-    a{
+
+    a {
         color: $white;
     }
 }
 
-#main_footer{
+#main_footer {
     background-image: url('../img/dc-logo-bg.png'), url('../img/footer-bg.jpg');
     background-repeat: no-repeat;
     background-size: auto, cover;
     background-position: 80%, 0%;
     color: $text-color;
-    h3{
+
+    h3 {
         text-transform: uppercase;
         color: white;
     }
-    li{
-        a{
+
+    li {
+        a {
             color: $text-color;
         }
+    }
+}
+
+#bottom_footer {
+    background-color: $secondary-color;
+
+    button {
+        padding: .625rem .9375rem;
+        text-transform: uppercase;
+        background-color: inherit;
+        border: 2px solid $primary-color;
+        color: white;
+    }
+    h3 {
+        text-transform: uppercase;
+        padding: .3125rem .625rem;
+        color: $primary-color;
+    }
+    img{
+        width: 35px;
     }
 }
