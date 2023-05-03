@@ -5,6 +5,10 @@
     color: $white;
 }
 
+.search{
+    border-bottom: 2px solid $primary-color;
+}
+
 #jumbo{
     height: 25rem;
     background-image: url('../img/jumbotron.jpg');
