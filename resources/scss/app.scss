@@ -1,24 +1,10 @@
 @import "~bootstrap/scss/bootstrap";
+@import "./partials/variables.scss";
+@import "./partials/header.scss";
+@import "./partials/footer.scss";
+@import"./partials/main.scss";
 
-.header-top {
-    background-color: lightseagreen;
-}
 
-#jumbo{
-    height: 25rem;
-    background-image: url('../img/jumbotron.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#posters{
-    background-color: black;
-}
-
-#top_footer{
-    background-color: lightseagreen;
-}
-
-#main_footer{
-    background-color: grey;
+a{
+    text-decoration: none;
 }

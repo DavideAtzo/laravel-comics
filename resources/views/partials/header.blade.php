@@ -1,7 +1,7 @@
 <header>
-    <div class="container">
-        <div class="header-top d-flex justify-content-end">
-            <span>DC POWER VISA</span>
+    <div id="header-top">
+        <div class="container d-flex justify-content-end">
+            <span class="me-5">DC POWER VISA</span>
             <span>ADDITIONAL DC SITES</span>
         </div>
     </div>
