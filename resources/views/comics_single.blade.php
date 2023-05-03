@@ -12,5 +12,14 @@
         </div>
     </div>
 </section>
+<div id="descrizione_prodotto">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="title">
+                <h1>{{ $comics_single['title'] }}</h1>
+            </div>
+        </div>
+    </div>
+</section>
 @endsection
 
