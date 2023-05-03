@@ -33,6 +33,9 @@
     border: 1px solid $border;
     .row{
         border-bottom: 1px solid $border;
+        a{
+            color: $primary-color;
+        }
     }
 
 }
