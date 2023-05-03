@@ -13,6 +13,7 @@
                     <div class="card-body">
                         <h3>{{ $item['title'] }}</h3>
                     </div>
+                    <button><a href="{{ route('comics_single', ['index' => $loop->index]) }}">dettaglio prodotto</a></button>
                 </div>
             @endforeach
         </div>
