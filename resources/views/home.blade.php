@@ -6,9 +6,9 @@
         <div class="btn btn-primary">
             <h4>CURRENT SIRIES</h4>
         </div>
-        <div class="poster_list d-flex">
+        <div class="row poster_list d-flex flex-wrap">
              @foreach ($comics as $item)
-                <div class="card">
+                <div class="card col-md-2">
                     <img src="{{ $item['thumb'] }}" alt="Immagine">
                     <div class="card-body">
                         <h3>{{ $item['title'] }}</h3>
