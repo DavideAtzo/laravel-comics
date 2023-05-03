@@ -30,6 +30,9 @@
                         Check Availability
                     </div>
                 </div>
+                <div class="descrizione-prodotto my-2">
+                    <p>{{ $comics_single['description'] }}</p>
+                </div>
             </div>
             <div class="col-4  mt-3">
                 <h3 class="text-uppercase text-center ps-5">advertisement</h3>
