@@ -1,24 +1,22 @@
 @extends('layouts.app')
 
 @section('page.main')
-<section id="posters">
+<section id="posters" class="py-3">
     <div class="container">
-        <div class="btn btn-primary">
-            <h4>CURRENT SIRIES</h4>
+        <div id="currentSiries">
+            <div>current siries</div>
         </div>
-        <div class="row poster_list d-flex flex-wrap">
+        <div class="row poster_list gap-3 py-4">
              @foreach ($comics as $item)
-                <div class="card col-md-2">
-                    <img src="{{ $item['thumb'] }}" alt="Immagine">
+                <div class="card col-xl-2">
+                    <img src="{{ $item['thumb'] }}" alt="{{ $item['title'] }}">
                     <div class="card-body">
                         <h3>{{ $item['title'] }}</h3>
                     </div>
                 </div>
             @endforeach
         </div>
-        <div class="btn btn-primary">
-            <h4>LOAD MORE</h4>
-        </div>
+        <button id="loadMore"><a href="#">load more</a></button>
     </div>
 </section>
 @endsection

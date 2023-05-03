@@ -1,0 +1,25 @@
+#posters{
+    background-color: $secondary-color;
+    position: relative;
+
+    #currentSiries {
+        padding: .625rem .9375rem;
+        background-color: $primary-color;
+        text-transform: uppercase;
+        color: $white;
+        font-weight: 600;
+        position: absolute;
+        top: -20px;
+        left: 150px;
+    };
+    #loadMore {
+        padding: .625rem 3.75rem;
+        text-transform: uppercase;
+        background-color: $primary-color;
+        font-weight: 600;
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
