@@ -11,7 +11,7 @@
         </div>
         <ul class="list-unstyled d-flex justify-content-center align-items-center gap-4 me-5">
             <li><a href="#">CHARACTERS</a></li>
-            <li><a href="{{ route('product') }}">COMICS</a></li>
+            <li><a href="#">COMICS</a></li>
             <li><a href="#">MOVIES</a></li>
             <li><a href="#">TV</a></li>
             <li><a href="#">GAMES</a></li>

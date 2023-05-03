@@ -1,3 +1,4 @@
 <main>
-    @include('partials/.jumbo')
+    @include('partials/.jumbo');
+    @yield('page.main')
 </main>

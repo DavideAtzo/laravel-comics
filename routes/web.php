@@ -14,13 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
-});
 
-Route::get('/product', function () {
     $data = [
-        'series' => config('comics')
+        'comics' => config('comics'),
     ];
 
-    return view('product', $data);
-})-> name('product');
+    return view('home', $data);
+});

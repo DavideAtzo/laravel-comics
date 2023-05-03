@@ -10,3 +10,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.poster_list{
+    flex-wrap: wrap;
+    .card{
+        width: calc(100% / 6);
+    }
+}
