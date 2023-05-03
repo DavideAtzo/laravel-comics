@@ -43,5 +43,55 @@
         </div>
     </div>
 </section>
+<section id="more-info" class="mt-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="row">
+                    <div>
+                        <h3 class="py-3">Talent</h3>
+                    </div>
+                </div>
+                <div class="row justify-content-between py-2">
+                    <div class="col-4"><h6>Art by:</h6></div>
+                    <div class="col-8">
+                        @foreach ($comics_single['artists'] as $artist)
+                            <a href="#">{{ $artist }}</a>
+                         @endforeach
+                    </div>
+                </div>
+                <div class="row py-2">
+                    <div class="col-4"><h6>Written by:</h6></div>
+                    <div class="col-8">
+                        @foreach ($comics_single['writers'] as $writer)
+                            <a href="#">{{ $writer }}</a>
+                        @endforeach
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <div>
+                        <h3 class="py-3">Specs</h3>
+                    </div>
+                </div>
+                <div class="row py-2">
+                    <div class="col-4"><h6>Series:</h6></div>
+                    <div class="col-8">
+                        <a href="#">{{ $comics_single['series'] }}</a>
+                    </div>
+                </div>
+                <div class="row py-2">
+                    <div class="col-4"><h6>U.S. Price:</h6></div>
+                    <div class="col-8">{{ $comics_single['price'] }}</div>
+                </div>
+                <div class="row py-2">
+                    <div class="col-4"><h6>On Sale Date:</h6></div>
+                    <div class="col-8">{{ $comics_single['sale_date'] }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 @endsection
 

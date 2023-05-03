@@ -28,4 +28,13 @@
     }
 }
 
+#more-info{
+    background-color: $more_info;
+    border: 1px solid $border;
+    .row{
+        border-bottom: 1px solid $border;
+    }
+
+}
+
 
