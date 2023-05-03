@@ -1,10 +1,11 @@
-#dettaglio_prodotto{
+#dettaglio_prodotto {
     background-color: $primary-color;
     height: 5rem;
     position: relative;
-    .img-box{
-    
-        img{
+
+    .img-box {
+
+        img {
             width: 200px;
             height: 300px;
             position: absolute;
@@ -14,30 +15,42 @@
     }
 }
 
-#descrizione_prodotto{
-    .price{
+#descrizione_prodotto {
+    .price {
         background-color: $green;
     }
-    h3{
+
+    h3 {
         font-size: 16px;
     }
-    .pubblicità{
-        img{
+
+    .pubblicità {
+        img {
             width: 300px;
         }
     }
 }
 
-#more-info{
+#more-info {
     background-color: $more_info;
-    border: 1px solid $border;
-    .row{
-        border-bottom: 1px solid $border;
-        a{
+
+    .row {
+        border-color: $border;
+
+        a {
             color: $primary-color;
         }
     }
 
 }
 
-
+#more-links {
+    background-color: $more_info;
+    h5{
+        opacity: 0.5;
+    }
+    img{
+        width: 2.8125rem;
+        filter: invert(15%);
+    }
+}
