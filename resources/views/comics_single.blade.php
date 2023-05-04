@@ -37,7 +37,7 @@
             <div class="col-4  mt-3">
                 <h3 class="text-uppercase text-center ps-5">advertisement</h3>
                 <div class="pubblicità px-3">
-                    <img src="{{ Vite::asset('resources/img/jumbotron.jpg') }}" alt="jumbotron">
+                    <img src="{{ Vite::asset('resources/img/advp.jpg') }}" alt="jumbotron">
                 </div>
             </div>
         </div>
